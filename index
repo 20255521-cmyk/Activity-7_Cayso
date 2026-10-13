@@ -256,7 +256,7 @@
     <div class="brand-title">
 
       <img
-        src="monalisa.jpg"
+        src="1000031041.jpg"
         alt="Mona Lisa"
         class="brand-logo"
       >
@@ -303,32 +303,30 @@
 
       <div class="card">
 
-        <h1>THIRD YEAR: THE ART OF ELEGANCE</h1>
+        <h1>THE ART OF KIMIMI
 
         <p class="subtitle">
-          Three years of creativity, growth, and unforgettable moments
+          Creativity, growth, and unforgettable moments
         </p>
 
         <div class="avatar-group">
 
           <img
-            src="IMG_20261013_090114.jpg"
+            src="1000031041.jpg"
+            alt="Mona Lisa"
+            class="avatar"
+          >
+   <img
+            src="1000031041.jpg"
             alt="Mona Lisa"
             class="avatar"
           >
 
-          <img
-            src="IMG_20261013_090114.jpg"
+             <img
+            src="1000031041.jpg"
             alt="Mona Lisa"
             class="avatar"
           >
-
-          <img
-            src="monalisa.jpg"
-            alt="Mona Lisa"
-            class="avatar"
-          >
-
         </div>
 
         <p class="description">
@@ -342,7 +340,7 @@
         <button
           class="btn"
           onclick="showPage('about', document.querySelectorAll('.nav-btn')[1])">
-          ABOUT &gt;
+          Learn More &gt;
         </button>
 
       </div>
@@ -359,13 +357,25 @@
           Creativity • Elegance • Growth
         </p>
 
+<img
+        src="1000031041.jpg"
+        alt="Mona Lisa"
+        class="brand-logo"
+      >
+
         <p class="description">
-          Welcome to my creative space. This website represents
-          my journey and experiences during my third year.
-          It combines classic elegance with a modern
-          black and pink aesthetic.
+         Welcome to my creative space. This website represents my journey and experiences. It combines classic elegance with a modern black and pink aesthetic.
         </p>
 
+         <p class="description">
+        Throughout my journey, I have gained new knowledge, developed my skills, and discovered more about my creativity and personal growth. Every experience has taught me valuable lessons that continue to shape who I am as an individual.
+        </p>
+
+        <p class="description">
+        This creative space showcases my interests, inspirations, and appreciation for art and design. Through every detail, I aim to express my personality, celebrate my progress, and share a glimpse of my journey. More than just a website, it is a reflection of my experiences, creativity, and the person I continue to become.
+        </p>
+
+  
         <button
           class="btn"
           onclick="showPage('home', document.querySelectorAll('.nav-btn')[0])">
@@ -376,113 +386,184 @@
 
     </section>
 
-    <section id="gallery" class="page">
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px 20px;
+  margin: 25px auto 0;
+  max-width: 600px;
+}
 
-      <div class="card">
+.gallery-item {
+  text-align: center;
+}
 
-        <h1>GALLERY</h1>
+.gallery-item img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #000;
+  transition: 0.3s;
+}
 
-        <p class="subtitle">
-          A collection of art and inspiration
-        </p>
+.gallery-item img:hover {
+  border-color: #ff69b4;
+  transform: scale(1.08);
+}
 
-        <div class="gallery">
+.gallery-item p {
+  margin-top: 5px;
+  font-size: 11px;
+  color: #222;
+}
 
-          <img
-            src="IMG_20261013_090114.jpg"
-            alt="Mona Lisa"
-          >
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px 8px;
+  }
 
-          <img
-            src="IMG_20261013_090114.jpg"
-            alt="Mona Lisa"
-          >
+  .gallery-item img {
+    width: 55px;
+    height: 55px;
+  }
+}
+</style>
 
-          <img
-            src="IMG_20261013_090114.jpg"
-            alt="Mona Lisa"
-          >
+<section id="gallery" class="page">
+  <div class="card">
 
-        </div>
+    <h1>GALLERY</h1>
 
-        <br>
+    <p class="subtitle">
+    Activity 7 blablablablblaba
+    </p>
 
-        <button
-          class="btn"
-          onclick="showPage('home', document.querySelectorAll('.nav-btn')[0])">
-          BACK TO HOME
-        </button>
+    <div class="gallery">
 
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+        <p>Project <p>
       </div>
 
-    </section>
-
-    <section id="contact" class="page">
-
-      <div class="card">
-
-        <h1>CONTACT</h1>
-
-        <p class="subtitle">
-          Get in touch with Xyla Cayso
-        </p>
-
-        <div class="contact-info">
-
-          <p>
-            <strong>Name:</strong> Xyla Cayso
-          </p>
-
-          <p>
-            <strong>Email:</strong> xylacayso@example.com
-          </p>
-
-          <p>
-            <strong>Theme:</strong> Black & Pink
-          </p>
-
-        </div>
-
-        <br>
-
-        <button
-          class="btn"
-          onclick="showPage('home', document.querySelectorAll('.nav-btn')[0])">
-          BACK TO HOME
-        </button>
-
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+         <p>Project <p>
       </div>
 
-    </section>
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+        <p>Project <p>
+      </div>
 
-  </main>
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+          <p>Project <p>
+      </div>
 
-  <footer>
-    &copy; 2027 XYLA CAYSO — THIRD YEAR
-  </footer>
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+         <p>Project <p>
+      </div>
 
-  <script>
-    function showPage(pageId, button) {
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+         <p>Project <p>
+      </div>
 
-      const pages = document.querySelectorAll(".page");
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+          <p>Project <p>
+      </div>
 
-      pages.forEach(function(page) {
-        page.classList.remove("active");
-      });
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+        <p>Project8</p>
+      </div>
 
-      document.getElementById(pageId).classList.add("active");
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+         <p>Project <p>
+      </div>
 
-      const buttons = document.querySelectorAll(".nav-btn");
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+         <p>Project <p>
+      </div>
 
-      buttons.forEach(function(btn) {
-        btn.classList.remove("active");
-      });
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+         <p>Project <p>
+      </div>
 
-      if (button) {
-        button.classList.add("active");
-      }
-    }
-  </script>
+      <div class="gallery-item">
+        <img src="1000031041.jpg" alt="Mona Lisa">
+         <p>Project <p>
+      </div>
 
-</body>
-</html>
+    </div>
+
+    <br>
+
+    <button
+      class="btn"
+      onclick="showPage('home', document.querySelectorAll('.nav-btn')[0])">
+      BACK TO HOME
+    </button>
+
+  </div>
+</section>
+
+<section id="contact" class="page">
+  <div class="card">
+
+    <h1>CONTACT</h1>
+
+    <p class="subtitle">
+      Get in touch with Xyla Cayso
+    </p>
+
+    <div class="contact-info">
+      <p><strong>Name:</strong> Xyla Cayso</p>
+      <p><strong>Email:</strong> xylacayso@example.com</p>
+      <p><strong>Theme:</strong> Black &amp; Pink</p>
+    </div>
+
+    <br>
+
+    <button
+      class="btn"
+      onclick="showPage('home', document.querySelectorAll('.nav-btn')[0])">
+      BACK TO HOME
+    </button>
+
+  </div>
+</section>
+
+<footer>
+  &copy; 2027 XYLA CAYSO
+</footer>
+
+<script>
+function showPage(pageId, button) {
+  const pages = document.querySelectorAll(".page");
+
+  pages.forEach(function(page) {
+    page.classList.remove("active");
+  });
+
+  document.getElementById(pageId).classList.add("active");
+
+  const buttons = document.querySelectorAll(".nav-btn");
+
+  buttons.forEach(function(btn) {
+    btn.classList.remove("active");
+  });
+
+  if (button) {
+    button.classList.add("active");
+  }
+}
+</script>
